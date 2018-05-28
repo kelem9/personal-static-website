@@ -1,0 +1,102 @@
+body, html{
+  height:100%;
+  font-family: 'PT Serif', serif;
+}
+ .name-section{
+  display: block;
+  margin-top: 30%;
+  text-align: center;
+}
+.entry-hero{
+  height: 100%;
+  background-image: url("../images/bckgrnd.jpg");
+  background-size: cover;
+}
+.name{
+  font-family: 'PT Serif', serif;
+  font-size:5rem;
+  color:black;
+  margin-left:auto;
+  margin-right:auto;
+  letter-spacing: .2rem;
+}
+.subname{
+  font-family: 'PT Serif', serif;
+  opacity: 0.8;
+  color:black;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  font-style: italic;
+}
+.hakkimda{
+  margin-top: 5rem;
+}
+.hakkimda-description{
+  font-family: 'PT Serif', serif;
+  font-size: 1rem;
+}
+.hakkimda-title{
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.queto{
+  margin-top: 5rem;
+  background-image: url("../images/bckgrnd.jpg");
+  height: 30rem;
+  background-size: cover;
+  background-position-y: 100%;
+  text-align: center;
+}
+.alinti{
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:1.1rem;
+}
+.alinti-section{
+  margin-top: 9rem;
+}
+.queto-owner{
+  font-size: 3rem;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  z-index: -1;
+  float: right;
+  margin-right: 4rem;
+  opacity: 0.6;
+}
+.skills{
+  height: 15rem;
+}
+.skills-half-1{
+  border-right: 2px solid black;
+  height: 15rem;
+  text-align: right;
+}
+.timeline-element{
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.3rem;
+  margin-right: -1.55rem;
+  margin-top:-.5rem;
+  padding-bottom: 2rem;
+}
+.social-media-title{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2rem;
+    margin-top: 1rem;  
+}
+.special-link{
+  color: black;
+}
+.special-title{
+  font-family: 'PT Serif', serif;
+  margin-left: .5rem;
+  font-size: 2rem;
+  font-style: italic;
+}
