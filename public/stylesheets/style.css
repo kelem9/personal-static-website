@@ -32,18 +32,25 @@ body, html{
   margin-top: 5rem;
 }
 .hakkimda-description{
-  font-family: 'PT Serif', serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 1rem;
+  text-indent: .8rem;
+  line-height: 2rem;
+  text-align: justify;
+  margin-right: 2rem;
 }
 .hakkimda-title{
   font-family: 'PT Serif', serif;
   font-weight: 700;
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 2rem;
+}
+.hakkimda-picture{
+  margin-top: 2.5rem;
 }
 .queto{
   margin-top: 5rem;
-  background-image: url("../images/bckgrnd.jpg");
+  background: url("../images/bckgrnd.jpg");
   height: 30rem;
   background-size: cover;
   background-position-y: 100%;
@@ -68,11 +75,12 @@ body, html{
   opacity: 0.6;
 }
 .skills{
-  height: 15rem;
+  height: 12rem;
+  margin-top: 5rem;
 }
 .skills-half-1{
   border-right: 2px solid black;
-  height: 15rem;
+  height: 12rem;
   text-align: right;
 }
 .timeline-element{
@@ -99,4 +107,12 @@ body, html{
   margin-left: .5rem;
   font-size: 2rem;
   font-style: italic;
+}
+#education-symbol{
+  z-index: -1;
+  text-align: center;
+  margin-left:520px;
+}
+.symbol-area{
+  height:70px;
 }
